@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://saksham-jaiswal-2004.github.io/my-portfolio-react",
+  "homepage": "https://saksham-jaiswal-2004.github.io/My-Portfolio-React/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
