@@ -1,0 +1,59 @@
+Frontend
+
+html
+css
+javascript
+pug
+tailwind
+bootstrap
+scss/sass
+jquery
+next.js
+react
+three.js
+figma
+vite
+framer motion
+
+
+
+Backend
+
+node.js
+express.js
+passport.js
+mongodb
+mysql
+
+
+
+Editing
+
+Photoshop
+Gimp
+Canva
+Lightroom
+Premiere Pro
+Da Vinci Resolve
+Blender
+
+
+
+Tech
+
+VS Code
+Pycharm
+git
+github
+firebase
+postman
+Heroku
+netlify
+Vercel
+
+Pending Work
+1. Make Navbar Responsive
+2. Color of all icons
+3. Education Section
+4. Change all content
+5. Logo
