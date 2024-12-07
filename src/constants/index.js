@@ -14,61 +14,68 @@ export const EXPERIENCES = [
   {
     year: "2023 - Present",
     role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    company: "Company A",
+    description: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique sed dicta eveniet architecto aliquam repellendus veritatis voluptate, aspernatur fugit impedit a minus ullam consectetur alias nam! Reiciendis voluptas quis recusandae porro maiores deserunt, dolorum aut, quia rem sunt modi velit?`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
   {
     year: "2022 - 2023",
     role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    company: "Company B",
+    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, similique. Fugiat molestiae magnam, esse nisi pariatur perferendis tempora sed atque, impedit porro aliquam sint illum possimus reiciendis debitis rem unde voluptatem. Minus ea quos iusto exercitationem necessitatibus! Atque repellendus, perspiciatis nostrum quas error porro repellat!`,
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
   },
   {
     year: "2021 - 2022",
     role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    company: "Company C",
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores possimus qui vero voluptates voluptatibus quas deleniti pariatur voluptatem sed provident. Reiciendis esse, fuga possimus rem quod quo eaque vel debitis sunt inventore necessitatibus earum quam?`,
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
   },
   {
     year: "2020 - 2021",
     role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+    company: "Company D",
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. At dicta doloremque reprehenderit dolorum blanditiis! Totam, quos tenetur. Quas magni deserunt quod quae non, sunt minus perspiciatis error quisquam, veritatis dolorum. Alias saepe iusto dolorem sapiente. Delectus, laudantium reprehenderit!`,
     technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "V R Tools Company Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Developed a responsive VR tools showcase app using React, Tailwind CSS, Lucide React; emphasized smooth navigation, interactive UI, efficient performance.",
+    technologies: ["Next.js", "Tailwid CSS", "React", "Node.js", "CSS"],
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: project2,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Developed a responsive React portfolio featuring dynamic UI, smooth navigation, Tailwind CSS styling, and efficient performance with pnpm dependency management.",
+    technologies: ["React", "Tailwind CSS", "Framer Motion", "Firebase"],
   },
   {
-    title: "Blogging Platform",
+    title: "Interior Design Firm Website",
+    image: project3,
+    description:
+      "Developed a responsive website for an interior design firm using HTML, CSS, JavaScript; featured interactive portfolio, smooth navigation.",
+    technologies: ["HTML", "CSS", "Javascript", "Motion"],
+  },
+  {
+    title: "Tic Tac Toe Game (C-Language)",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Created a C-based Tic Tac Toe game with AI difficulty, game history, menu navigation, file storage, and Ubuntu optimization.",
+    technologies: ["C-Language", "File Handling", "VS Code"],
+  },
+  {
+    title: "Library Management System (Java)",
+    image: project2,
+    description:
+      "Created a Library Management System using Java Swing and SQL, featuring book management, user registration, transactions, search, login, and reporting.",
+    technologies: ["Java", "Java Swing", "MySQL", "Blue J"],
   },
 ];
 

@@ -50,10 +50,3 @@ postman
 Heroku
 netlify
 Vercel
-
-Pending Work
-1. Make Navbar Responsive
-2. Color of all icons
-3. Education Section
-4. Change all content
-5. Logo

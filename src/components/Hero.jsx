@@ -20,8 +20,8 @@ const Hero = () => {
                  <motion.span variants={container(0.5)} initial="hidden" whileInView={"visible"} className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent'>Coder | Web Developer | UI/UX | Editor</motion.span>
                  <motion.p variants={container(1)} initial="hidden" whileInView={"visible"} className='my-2 max-w-xl py-6 font-light tracking-tight'>{HERO_CONTENT}</motion.p>
                  <div className="my-6 text-center flex justify-start">
-                   <a href="https://drive.google.com/file/d/1hActEu0ABiNZN__vci-iKGU8HEIl0bnB/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }} whileInView={{opacity:100, scale:1}} initial={{opacity:0, scale:0.4}} transition={{duration:0.3}} type="submit" className="mx-2 bg-none border-x-2 border-purple-700 hover:border-2 transition-all ease-in-out duration-100 text-white py-2 px-4 rounded-2xl text-lg shadow-lg">Check Resume</motion.button></a>
-                   <a href='https://github.com/Saksham-Jaiswal-2004' target="_blank" rel="noopener noreferrer"><motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }} whileInView={{opacity:100, scale:1}} initial={{opacity:0, scale:0.4}} transition={{duration:0.3}} type="submit" className="mx-2 bg-none border-x-2 border-purple-700 hover:border-2 transition-all ease-in-out duration-100 text-white py-2 px-4 rounded-2xl text-lg shadow-lg">Github Profile</motion.button></a>
+                   <a href="https://drive.google.com/file/d/1hActEu0ABiNZN__vci-iKGU8HEIl0bnB/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }} whileInView={{opacity:100, scale:1}} initial={{opacity:0, scale:0.4}} transition={{duration:0.5}} type="submit" className="mx-2 bg-none border-x-2 border-purple-700 hover:border-2 transition-all ease-in-out duration-100 text-white py-2 px-4 rounded-2xl text-lg shadow-lg">Check Resume</motion.button></a>
+                   <a href='https://github.com/Saksham-Jaiswal-2004' target="_blank" rel="noopener noreferrer"><motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }} whileInView={{opacity:100, scale:1}} initial={{opacity:0, scale:0.4}} transition={{duration:0.5}} type="submit" className="mx-2 bg-none border-x-2 border-purple-700 hover:border-2 transition-all ease-in-out duration-100 text-white py-2 px-4 rounded-2xl text-lg shadow-lg">Github Profile</motion.button></a>
                  </div>
              </div>
          </div>
@@ -29,7 +29,6 @@ const Hero = () => {
          <div className='w-full lg:w-1/2 lg:p-8'>
              <div className='flex justify-center'>
                 <motion.img initial={{x:100, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:1, delay:1.2}} src={profilePic} alt="Saksham Jaiswal Pic" className='rounded-3xl filter brightness-75 contrast-100'/>
-                {/* <img src={profilePic} alt="Saksham Jaiswal Pic"/> */}
              </div>
          </div>
       </div>

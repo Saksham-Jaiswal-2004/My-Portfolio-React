@@ -37,6 +37,9 @@ import { SiAdobepremierepro } from "react-icons/si";
 import { SiDavinciresolve } from "react-icons/si";
 import { RiBlenderLine } from "react-icons/ri";
 import { TbBrandOauth } from "react-icons/tb";
+import { FaJava } from "react-icons/fa";
+import { TbBrandCpp } from "react-icons/tb";
+import { FaPython } from "react-icons/fa";
 
 
 const iconVariants = (duration) => ({
@@ -58,7 +61,7 @@ const Tech = () => {
       <motion.h1 whileInView={{opacity:100, y:0}} initial={{opacity:0, y:-100}} transition={{duration:1.5}} className='mt-28 mb-14 text-center text-4xl'>Technologies / Skills</motion.h1>
       <div className='flex flex-wrap items-start justify-center gap-4'>
         {/* Frontend */}
-        <motion.div whileInView={{opacity:100, scale:1}} initial={{opacity:0, scale:1}} transition={{duration:1.2}} className='flex flex-col m-1 p-1 w-2/5 items-center'>
+        <motion.div whileInView={{opacity:100, scale:1}} initial={{opacity:0, scale:1}} transition={{duration:1.2}} className='flex flex-col m-1 p-1 w-2/5 max-flex:w-full items-center'>
             <h1 className='my-28 text-center text-2xl'>Frontend</h1>
             <div className='flex flex-wrap items-center justify-center'>
               <motion.div variants={iconVariants(1.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
@@ -134,7 +137,7 @@ const Tech = () => {
         </motion.div>
 
         {/* Backend */}
-        <motion.div whileInView={{opacity:100, scale:1}} initial={{opacity:0, scale:1}} transition={{duration:1.2}} className='flex flex-col m-1 p-1 w-2/5 items-center'>
+        <motion.div whileInView={{opacity:100, scale:1}} initial={{opacity:0, scale:1}} transition={{duration:1.2}} className='flex flex-col m-1 p-1 w-2/5 max-flex:w-full items-center'>
             <h1 className='my-28 text-center text-2xl'>Backend</h1>
             <div className='flex flex-wrap items-center justify-center'>
               <motion.div variants={iconVariants(1)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
@@ -169,8 +172,34 @@ const Tech = () => {
             </div>
         </motion.div>
 
+        {/* Programming Languages */}
+        <motion.div whileInView={{opacity:100, scale:1}} initial={{opacity:0, scale:1}} transition={{duration:1.2}} className='flex flex-col m-1 p-1 w-2/5 max-flex:w-full items-center'>
+            <h1 className='my-28 text-center text-2xl'>Backend</h1>
+            <div className='flex flex-wrap items-center justify-center'>
+              <motion.div variants={iconVariants(1)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
+                <FaJava className="text-7xl text-blue-700"/>
+                <p>Java</p>
+              </motion.div>
+
+              <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
+                  <TbBrandCpp className="text-7xl text-yellow-400"/>
+                  <p>C-Programming</p>
+              </motion.div>
+      
+              <motion.div variants={iconVariants(3.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
+                  <TbBrandCpp className="text-7xl text-blue-500"/>
+                  <p>C++</p>
+              </motion.div>
+
+              <motion.div variants={iconVariants(3.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
+                  <FaPython className="text-7xl text-yellow-400"/>
+                  <p>Python (Basic)</p>
+              </motion.div>
+            </div>
+        </motion.div>
+
         {/* Editing */}
-        <motion.div whileInView={{opacity:100, scale:1}} initial={{opacity:0, scale:1}} transition={{duration:1.2}} className='flex flex-col m-1 p-1 w-2/5 items-center'>
+        <motion.div whileInView={{opacity:100, scale:1}} initial={{opacity:0, scale:1}} transition={{duration:1.2}} className='flex flex-col m-1 p-1 w-2/5 max-flex:w-full items-center'>
             <h1 className='my-28 text-center text-2xl'>Editing</h1>
             <div className='flex flex-wrap items-center justify-center'>
               <motion.div variants={iconVariants(2)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
@@ -211,7 +240,7 @@ const Tech = () => {
         </motion.div>
 
         {/* Others */}
-        <motion.div whileInView={{opacity:100, scale:1}} initial={{opacity:0, scale:1}} transition={{duration:1.2}} className='flex flex-col m-1 p-1 w-2/5 items-center'>
+        <motion.div whileInView={{opacity:100, scale:1}} initial={{opacity:0, scale:1}} transition={{duration:1.2}} className='flex flex-col m-1 p-1 w-2/5 max-flex:w-full items-center'>
             <h1 className='my-28 text-center text-2xl'>Others</h1>
             <div className='flex flex-wrap items-center justify-center'>
               <motion.div variants={iconVariants(3)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>

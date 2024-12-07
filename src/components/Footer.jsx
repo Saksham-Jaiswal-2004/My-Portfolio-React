@@ -17,13 +17,13 @@ const Footer = () => {
               <motion.h2 whileInView={{opacity:100}} initial={{opacity:0}} transition={{duration:1.5}} className='my-3 text-5xl pb-8 font-thin tracking-tight max-flex:text-4xl'>Saksham Jaiswal</motion.h2>
   
               <motion.div whileInView={{opacity:100, x:0}} initial={{opacity:0, x:-100}} transition={{duration:1}} className='flex items-center justify-start'>
-                <FaPhoneSquareAlt className='text-xl rounded-xl'/>
-                <p className="my-4 text-lg max-flex:text-base"> - {CONTACT.phoneNo}</p>
+                <a href="https://wa.me/918420828031" target="_blank" rel="noopener noreferrer"><FaPhoneSquareAlt className='text-xl rounded-xl'/></a>
+                <p className="my-4 text-lg max-flex:text-base"><a href="https://wa.me/918420828031" target="_blank" rel="noopener noreferrer"> - {CONTACT.phoneNo}</a></p>
               </motion.div>
   
               <motion.div whileInView={{opacity:100, x:0}} initial={{opacity:0, x:-100}} transition={{duration:1.4}} className='flex items-center justify-start'>
-                <MdEmail className='text-xl'/>
-                <p className="my-4 text-lg max-flex:text-base"> - {CONTACT.email}</p>
+                <a href="mailto:sakshamjaiswalofficial@gmail.com" target="_blank" rel="noopener noreferrer"><MdEmail className='text-xl'/></a>
+                <p className="my-4 text-lg max-flex:text-base"><a href="mailto:sakshamjaiswalofficial@gmail.com" target="_blank" rel="noopener noreferrer"> - {CONTACT.email}</a></p>
               </motion.div>
           </div>
   
