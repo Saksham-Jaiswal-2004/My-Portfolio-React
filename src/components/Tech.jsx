@@ -174,7 +174,7 @@ const Tech = () => {
 
         {/* Programming Languages */}
         <motion.div whileInView={{opacity:100, scale:1}} initial={{opacity:0, scale:1}} transition={{duration:1.2}} className='flex flex-col m-1 p-1 w-2/5 max-flex:w-full items-center'>
-            <h1 className='my-28 text-center text-2xl'>Backend</h1>
+            <h1 className='my-28 text-center text-2xl'>Programming Languages</h1>
             <div className='flex flex-wrap items-center justify-center'>
               <motion.div variants={iconVariants(1)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
                 <FaJava className="text-7xl text-blue-700"/>

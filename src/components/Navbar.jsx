@@ -10,7 +10,6 @@ const Navbar = () => {
     <div>
       <nav className='z-10 mx-4 flex items-center justify-between py-4 fixed top-0 left-0 w-full backdrop-blur-md'>
           <div className='flex flex-shrink-0 items-center'>
-              {/* <Link to="home" smooth={true} duration={500} offset={-100}><img src={logo} alt="" /></Link> */}
               <Link to="home" smooth={true} duration={500} offset={-100}><h6 className='h-full w-fit text-4xl cursor-pointer'>SJ</h6></Link>
           </div>
   
