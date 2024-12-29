@@ -199,7 +199,7 @@ const Tech = () => {
         </motion.div>
 
         {/* Editing */}
-        <motion.div whileInView={{opacity:100, scale:1}} initial={{opacity:0, scale:1}} transition={{duration:1.2}} className='flex flex-col m-1 p-1 w-2/5 max-flex:w-full items-center'>
+        {/* <motion.div whileInView={{opacity:100, scale:1}} initial={{opacity:0, scale:1}} transition={{duration:1.2}} className='flex flex-col m-1 p-1 w-2/5 max-flex:w-full items-center'>
             <h1 className='my-28 text-center text-2xl'>Editing</h1>
             <div className='flex flex-wrap items-center justify-center'>
               <motion.div variants={iconVariants(2)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
@@ -237,7 +237,7 @@ const Tech = () => {
                   <p>Blender</p>
               </motion.div>
             </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* Others */}
         <motion.div whileInView={{opacity:100, scale:1}} initial={{opacity:0, scale:1}} transition={{duration:1.2}} className='flex flex-col m-1 p-1 w-2/5 max-flex:w-full items-center'>

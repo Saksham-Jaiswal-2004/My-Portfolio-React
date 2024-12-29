@@ -12,32 +12,11 @@ export const ABOUT_TEXT_4 = `I take a structured yet creative approach to develo
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Company A",
-    description: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique sed dicta eveniet architecto aliquam repellendus veritatis voluptate, aspernatur fugit impedit a minus ullam consectetur alias nam! Reiciendis voluptas quis recusandae porro maiores deserunt, dolorum aut, quia rem sunt modi velit?`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Company B",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, similique. Fugiat molestiae magnam, esse nisi pariatur perferendis tempora sed atque, impedit porro aliquam sint illum possimus reiciendis debitis rem unde voluptatem. Minus ea quos iusto exercitationem necessitatibus! Atque repellendus, perspiciatis nostrum quas error porro repellat!`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Company C",
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores possimus qui vero voluptates voluptatibus quas deleniti pariatur voluptatem sed provident. Reiciendis esse, fuga possimus rem quod quo eaque vel debitis sunt inventore necessitatibus earum quam?`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Company D",
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. At dicta doloremque reprehenderit dolorum blanditiis! Totam, quos tenetur. Quas magni deserunt quod quae non, sunt minus perspiciatis error quisquam, veritatis dolorum. Alias saepe iusto dolorem sapiente. Delectus, laudantium reprehenderit!`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Dec, 2024 - Present",
+    role: "Core Team Member",
+    company: "FOSS Club, IIIT Kalyani",
+    description: `Being a core team member of the FOSS (Free and Open Source Software) club involves organizing events like workshops and hackathons to promote open-source contributions. It includes collaborating with peers, mentoring juniors, and working on real-world projects aligned with open-source principles. This role helps improve technical and leadership skills while fostering a community-driven learning environment.`,
+    technologies: ["Leadership", "Team Work", "Collaboration", "Management"],
   },
 ];
 
@@ -55,6 +34,20 @@ export const PROJECTS = [
     description:
       "Developed a responsive React portfolio featuring dynamic UI, smooth navigation, Tailwind CSS styling, and efficient performance with pnpm dependency management.",
     technologies: ["React", "Tailwind CSS", "Framer Motion", "Firebase"],
+  },
+  {
+    title: "Portfolio for Cyber-Security Expert",
+    image: project3,
+    description:
+      "The Cybersecurity Portfolio of Mohan Ganesh is a comprehensive showcase of projects, skills, and achievements in cybersecurity. It highlights expertise in areas like network security, ethical hacking, and data protection through practical implementations and detailed case studies.",
+    technologies: ["React", "Tailwind CSS", "React Router", "Framer Motion"],
+  },
+  {
+    title: "Pixtrove - Frontend for a Face Recognizer Photo Fetcher",
+    image: project4,
+    description:
+      "Pixtrove is a modern image management platform designed to organize and retrieve pictures efficiently using advanced face recognition technology. It features a sleek and responsive frontend built with Next.js and Tailwind CSS, offering seamless user experiences.",
+    technologies: ["Next.js", "Tailwind CSS", "React Icons", "Google Maps (iframe)"],
   },
   {
     title: "Interior Design Firm Website",

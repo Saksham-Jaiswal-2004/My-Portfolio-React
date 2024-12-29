@@ -6,7 +6,7 @@ import { EXPERIENCES } from '../constants'
 const Experience = () => {
   return (
     <div className='min-h-screen border-d border-neutral-900 pb-4' id='experience'>
-      <motion.h1 whileInView={{opacity:100, y:0}} initial={{opacity:0, y:-100}} transition={{duration:1}} className='my-28 text-center text-4xl'>Experience <span className='text-neutral-500'>(Fake Data)</span></motion.h1>
+      <motion.h1 whileInView={{opacity:100, y:0}} initial={{opacity:0, y:-100}} transition={{duration:1}} className='my-28 text-center text-4xl'>Experience</motion.h1>
 
       <div>
         {EXPERIENCES.map((experience, index) => (

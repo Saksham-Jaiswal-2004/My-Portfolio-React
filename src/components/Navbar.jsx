@@ -8,13 +8,13 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className='z-10 mx-4 flex items-center justify-between py-4 fixed top-0 left-0 w-full backdrop-blur-md'>
+      <nav className='z-10 mx-4 flex items-center justify-between py-2 fixed top-0 left-0 w-full backdrop-blur-md'>
           <div className='flex flex-shrink-0 items-center'>
-              <Link to="home" smooth={true} duration={500} offset={-100}><h6 className='h-full w-fit text-4xl cursor-pointer'>SJ</h6></Link>
+              <Link to="home" smooth={true} duration={500} offset={-100}><h6 className='h-full w-fit text-2xl cursor-pointer'>Saksham Jaiswal</h6></Link>
           </div>
   
           <div className='mx-8 flex items-center justify-center gap-4'>
-            <ul className='hidden mx-5 sm:flex items-center justify-center gap-6 text-lg'>
+            <ul className='hidden mx-5 sm:flex items-center justify-center gap-6 text-base'>
               <Link to="home" smooth={true} duration={500} offset={-100} className="mx-1 navLink"><li>Home</li></Link>
               <Link to="about" smooth={true} duration={500} offset={-100} className="mx-1 navLink"><li>About</li></Link>
               <Link to="technologies" smooth={true} duration={500} offset={-100} className="mx-1 navLink"><li>Technologies</li></Link>
