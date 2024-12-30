@@ -59,78 +59,78 @@ const Tech = () => {
   return (
     <div className='border-b border-neutral-800 pb-24 min-h-screen' id='technologies'>
       <motion.h1 whileInView={{opacity:100, y:0}} initial={{opacity:0, y:-100}} transition={{duration:1.5}} className='mt-28 mb-14 text-center text-4xl'>Technologies / Skills</motion.h1>
-      <div className='flex flex-wrap items-start justify-center gap-4'>
+      <div className='flex flex-wrap items-start justify-center gap-2'>
         {/* Frontend */}
         <motion.div whileInView={{opacity:100, scale:1}} initial={{opacity:0, scale:1}} transition={{duration:1.2}} className='flex flex-col m-1 p-1 w-2/5 max-flex:w-full items-center'>
-            <h1 className='my-28 text-center text-2xl'>Frontend</h1>
+            <h1 className='md:my-28 my-16 text-center text-2xl'>Frontend</h1>
             <div className='flex flex-wrap items-center justify-center'>
-              <motion.div variants={iconVariants(1.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                <FaHtml5 className="text-7xl text-orange-600"/>
+              <motion.div variants={iconVariants(1.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                <FaHtml5 className="md:text-7xl text-2xl text-orange-600"/>
                 <p>HTML</p>
               </motion.div>
 
-              <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <FaCss3Alt className="text-7xl text-blue-600"/>
+              <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <FaCss3Alt className="md:text-7xl text-2xl text-blue-600"/>
                   <p>CSS</p>
               </motion.div>
       
-              <motion.div variants={iconVariants(1.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <IoLogoJavascript className="text-7xl text-yellow-400"/>
+              <motion.div variants={iconVariants(1.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <IoLogoJavascript className="md:text-7xl text-2xl text-yellow-400"/>
                   <p>Javascript</p>
               </motion.div>
       
-              <motion.div variants={iconVariants(3)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <SiPug className="text-7xl text-amber-900"/>
+              <motion.div variants={iconVariants(3)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <SiPug className="md:text-7xl text-2xl text-amber-900"/>
                   <p>Pug</p>
               </motion.div>
       
-              <motion.div variants={iconVariants(5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <RiTailwindCssFill className="text-7xl text-blue-400"/>
+              <motion.div variants={iconVariants(5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <RiTailwindCssFill className="md:text-7xl text-2xl text-blue-400"/>
                   <p>Tailwind</p>
               </motion.div>
       
-              <motion.div variants={iconVariants(2)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <FaBootstrap className="text-7xl text-purple-600"/>
+              <motion.div variants={iconVariants(2)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <FaBootstrap className="md:text-7xl text-2xl text-purple-600"/>
                   <p>Bootstrap</p>
               </motion.div>
       
-              <motion.div variants={iconVariants(6)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <BsFiletypeScss className="text-7xl text-purple-700"/>
+              <motion.div variants={iconVariants(6)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <BsFiletypeScss className="md:text-7xl text-2xl text-purple-700"/>
                   <p>SCSS</p>
               </motion.div>
       
-              <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <DiJqueryLogo className="text-7xl text-blue-700"/>
+              <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <DiJqueryLogo className="md:text-7xl text-2xl text-blue-700"/>
                   <p>Jquery</p>
               </motion.div>
       
-              <motion.div variants={iconVariants(3)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <TbBrandNextjs className="text-7xl"/>
+              <motion.div variants={iconVariants(3)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <TbBrandNextjs className="md:text-7xl text-2xl"/>
                   <p>Next.js</p>
               </motion.div>
       
-              <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <RiReactjsLine className="text-7xl text-cyan-400"/>
+              <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <RiReactjsLine className="md:text-7xl text-2xl text-cyan-400"/>
                   <p>React.js</p>
               </motion.div>
       
-              <motion.div variants={iconVariants(5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <SiThreedotjs className="text-7xl"/>
+              <motion.div variants={iconVariants(5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <SiThreedotjs className="md:text-7xl text-2xl"/>
                   <p>Three.js</p>
               </motion.div>
       
-              <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <IoLogoFigma className="text-7xl text-green-400"/>
+              <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <IoLogoFigma className="md:text-7xl text-2xl text-green-400"/>
                   <p>Figma</p>
               </motion.div>
       
-              <motion.div variants={iconVariants(2)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <SiVite className="text-7xl text-purple-700"/>
+              <motion.div variants={iconVariants(2)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <SiVite className="md:text-7xl text-2xl text-purple-700"/>
                   <p>Vite</p>
               </motion.div>
       
-              <motion.div variants={iconVariants(6)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <TbBrandFramerMotion className="text-7xl text-pink-600"/>
+              <motion.div variants={iconVariants(6)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <TbBrandFramerMotion className="md:text-7xl text-2xl text-pink-600"/>
                   <p>Framer Motion</p>
               </motion.div>
             </div>
@@ -138,35 +138,35 @@ const Tech = () => {
 
         {/* Backend */}
         <motion.div whileInView={{opacity:100, scale:1}} initial={{opacity:0, scale:1}} transition={{duration:1.2}} className='flex flex-col m-1 p-1 w-2/5 max-flex:w-full items-center'>
-            <h1 className='my-28 text-center text-2xl'>Backend</h1>
+            <h1 className='md:my-28 my-16 text-center text-2xl'>Backend</h1>
             <div className='flex flex-wrap items-center justify-center'>
-              <motion.div variants={iconVariants(1)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                <FaNodeJs className="text-7xl text-green-700"/>
+              <motion.div variants={iconVariants(1)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                <FaNodeJs className="md:text-7xl text-2xl text-green-700"/>
                 <p>Node.js</p>
               </motion.div>
 
-              <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <SiExpress className="text-7xl text-yellow-400"/>
+              <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <SiExpress className="md:text-7xl text-2xl text-yellow-400"/>
                   <p>Express.js</p>
               </motion.div>
       
-              <motion.div variants={iconVariants(3.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <SiPassport className="text-7xl text-cyan-400"/>
+              <motion.div variants={iconVariants(3.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <SiPassport className="md:text-7xl text-2xl text-cyan-400"/>
                   <p>Passport.js</p>
               </motion.div>
 
-              <motion.div variants={iconVariants(2)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                <SiMongodb className="text-7xl text-green-500"/>
+              <motion.div variants={iconVariants(2)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                <SiMongodb className="md:text-7xl text-2xl text-green-500"/>
                 <p>MongoDB</p>
               </motion.div>
 
-              <motion.div variants={iconVariants(3.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <BiLogoPostgresql className="text-7xl text-sky-700"/>
+              <motion.div variants={iconVariants(3.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <BiLogoPostgresql className="md:text-7xl text-2xl text-sky-700"/>
                   <p>SQL</p>
               </motion.div>
 
-              <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <TbBrandOauth className="text-7xl text-zinc-700"/>
+              <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <TbBrandOauth className="md:text-7xl text-2xl text-zinc-700"/>
                   <p>O-Auth</p>
               </motion.div>
             </div>
@@ -174,25 +174,25 @@ const Tech = () => {
 
         {/* Programming Languages */}
         <motion.div whileInView={{opacity:100, scale:1}} initial={{opacity:0, scale:1}} transition={{duration:1.2}} className='flex flex-col m-1 p-1 w-2/5 max-flex:w-full items-center'>
-            <h1 className='my-28 text-center text-2xl'>Programming Languages</h1>
+            <h1 className='md:my-28 my-16 text-center text-2xl'>Programming Languages</h1>
             <div className='flex flex-wrap items-center justify-center'>
-              <motion.div variants={iconVariants(1)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                <FaJava className="text-7xl text-blue-700"/>
+              <motion.div variants={iconVariants(1)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                <FaJava className="md:text-7xl text-2xl text-blue-700"/>
                 <p>Java</p>
               </motion.div>
 
-              <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <TbBrandCpp className="text-7xl text-yellow-400"/>
+              <motion.div variants={iconVariants(2.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <TbBrandCpp className="md:text-7xl text-2xl text-yellow-400"/>
                   <p>C-Programming</p>
               </motion.div>
       
-              <motion.div variants={iconVariants(3.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <TbBrandCpp className="text-7xl text-blue-500"/>
+              <motion.div variants={iconVariants(3.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <TbBrandCpp className="md:text-7xl text-2xl text-blue-500"/>
                   <p>C++</p>
               </motion.div>
 
-              <motion.div variants={iconVariants(3.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <FaPython className="text-7xl text-yellow-400"/>
+              <motion.div variants={iconVariants(3.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <FaPython className="md:text-7xl text-2xl text-yellow-400"/>
                   <p>Python (Basic)</p>
               </motion.div>
             </div>
@@ -241,49 +241,49 @@ const Tech = () => {
 
         {/* Others */}
         <motion.div whileInView={{opacity:100, scale:1}} initial={{opacity:0, scale:1}} transition={{duration:1.2}} className='flex flex-col m-1 p-1 w-2/5 max-flex:w-full items-center'>
-            <h1 className='my-28 text-center text-2xl'>Others</h1>
+            <h1 className='md:my-28 my-16 text-center text-2xl'>Others</h1>
             <div className='flex flex-wrap items-center justify-center'>
-              <motion.div variants={iconVariants(3)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                <VscVscode className="text-7xl text-blue-500"/>
+              <motion.div variants={iconVariants(3)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                <VscVscode className="md:text-7xl text-2xl text-blue-500"/>
                 <p>VS Code</p>
               </motion.div>
 
-              <motion.div variants={iconVariants(5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <SiPycharm className="text-7xl text-green-500"/>
+              <motion.div variants={iconVariants(5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <SiPycharm className="md:text-7xl text-2xl text-green-500"/>
                   <p>Pycharm</p>
               </motion.div>
       
-              <motion.div variants={iconVariants(2)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <FaGitSquare className="text-7xl text-orange-700"/>
+              <motion.div variants={iconVariants(2)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <FaGitSquare className="md:text-7xl text-2xl text-orange-700"/>
                   <p>Git</p>
               </motion.div>
-              <motion.div variants={iconVariants(6)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <FaGithubSquare className="text-7xl"/>
+              <motion.div variants={iconVariants(6)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <FaGithubSquare className="md:text-7xl text-2xl"/>
                   <p>Github</p>
               </motion.div>
       
-              <motion.div variants={iconVariants(3)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <SiFirebase className="text-7xl text-yellow-500"/>
+              <motion.div variants={iconVariants(3)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <SiFirebase className="md:text-7xl text-2xl text-yellow-500"/>
                   <p>Firebase</p>
               </motion.div>
       
-              <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <SiPostman className="text-7xl text-orange-500"/>
+              <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <SiPostman className="md:text-7xl text-2xl text-orange-500"/>
                   <p>Postman</p>
               </motion.div>
       
-              <motion.div variants={iconVariants(6.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <DiHeroku className="text-7xl text-violet-800"/>
+              <motion.div variants={iconVariants(6.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <DiHeroku className="md:text-7xl text-2xl text-violet-800"/>
                   <p>Heroku</p>
               </motion.div>
       
-              <motion.div variants={iconVariants(6.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <BiLogoNetlify className="text-7xl text-emerald-400"/>
+              <motion.div variants={iconVariants(6.5)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <BiLogoNetlify className="md:text-7xl text-2xl text-emerald-400"/>
                   <p>Netlify</p>
               </motion.div>
       
-              <motion.div variants={iconVariants(3.2)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-4 icon'>
-                  <SiVercel className="text-7xl"/>
+              <motion.div variants={iconVariants(3.2)} initial="initial" animate="animate" className='rounded-2xl border-b border-neutral-800 p-2 icon'>
+                  <SiVercel className="md:text-7xl text-2xl"/>
                   <p>Vercel</p>
               </motion.div>
             </div>

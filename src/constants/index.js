@@ -27,6 +27,7 @@ export const PROJECTS = [
     description:
       "Developed a responsive VR tools showcase app using React, Tailwind CSS, Lucide React; emphasized smooth navigation, interactive UI, efficient performance.",
     technologies: ["Next.js", "Tailwid CSS", "React", "Node.js", "CSS"],
+    link: "https://github.com/Saksham-Jaiswal-2004/VR-Tools-Company",
   },
   {
     title: "Portfolio Website",
@@ -34,6 +35,7 @@ export const PROJECTS = [
     description:
       "Developed a responsive React portfolio featuring dynamic UI, smooth navigation, Tailwind CSS styling, and efficient performance with pnpm dependency management.",
     technologies: ["React", "Tailwind CSS", "Framer Motion", "Firebase"],
+    link: "https://github.com/Saksham-Jaiswal-2004/My-Portfolio-React",
   },
   {
     title: "Portfolio for Cyber-Security Expert",
@@ -41,6 +43,7 @@ export const PROJECTS = [
     description:
       "The Cybersecurity Portfolio of Mohan Ganesh is a comprehensive showcase of projects, skills, and achievements in cybersecurity. It highlights expertise in areas like network security, ethical hacking, and data protection through practical implementations and detailed case studies.",
     technologies: ["React", "Tailwind CSS", "React Router", "Framer Motion"],
+    link: "https://github.com/Saksham-Jaiswal-2004/Mohan-Ganesh-Portfolio",
   },
   {
     title: "Pixtrove - Frontend for a Face Recognizer Photo Fetcher",
@@ -48,6 +51,7 @@ export const PROJECTS = [
     description:
       "Pixtrove is a modern image management platform designed to organize and retrieve pictures efficiently using advanced face recognition technology. It features a sleek and responsive frontend built with Next.js and Tailwind CSS, offering seamless user experiences.",
     technologies: ["Next.js", "Tailwind CSS", "React Icons", "Google Maps (iframe)"],
+    link: "https://github.com/Saksham-Jaiswal-2004/Pixtrove",
   },
   {
     title: "Interior Design Firm Website",
@@ -55,6 +59,7 @@ export const PROJECTS = [
     description:
       "Developed a responsive website for an interior design firm using HTML, CSS, JavaScript; featured interactive portfolio, smooth navigation.",
     technologies: ["HTML", "CSS", "Javascript", "Motion"],
+    link: "https://github.com/Saksham-Jaiswal-2004/M-J-Decore",
   },
   {
     title: "Tic Tac Toe Game (C-Language)",
@@ -62,6 +67,7 @@ export const PROJECTS = [
     description:
       "Created a C-based Tic Tac Toe game with AI difficulty, game history, menu navigation, file storage, and Ubuntu optimization.",
     technologies: ["C-Language", "File Handling", "VS Code"],
+    link: "https://github.com/Saksham-Jaiswal-2004/Tic-Tac-Toe",
   },
   {
     title: "Library Management System (Java)",
@@ -69,6 +75,7 @@ export const PROJECTS = [
     description:
       "Created a Library Management System using Java Swing and SQL, featuring book management, user registration, transactions, search, login, and reporting.",
     technologies: ["Java", "Java Swing", "MySQL", "Blue J"],
+    link: "https://github.com/Saksham-Jaiswal-2004/Library-Management-System---Java",
   },
 ];
 

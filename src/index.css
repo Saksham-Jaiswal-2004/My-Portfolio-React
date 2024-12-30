@@ -24,7 +24,7 @@
 .icon{
     transition: all ease-in-out 300ms;
     cursor: pointer;
-    margin: 0.5em;
+    margin: 0.2em;
     display: flex;
     flex-direction: column;
     justify-content: center;

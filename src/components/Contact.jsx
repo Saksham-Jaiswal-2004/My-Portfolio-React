@@ -60,7 +60,7 @@ const Contact = () => {
     <div className='border-b border-neutral-900 pb-4 min-h-screen flex flex-wrap flex-col justify-center items-center' id='contact'>
       <motion.h1 whileInView={{opacity:100, y:0}} initial={{opacity:0, y:-100}} transition={{duration:1.5}} className='my-14 text-center text-4xl'>Get in <span className='text-neutral-500'>Touch</span></motion.h1>
 
-      <form ref={form} onSubmit={handleSubmit} className="space-y-4 w-1/2 max-flex:w-4/5 max-flex:p-8 p-16 text-left flex flex-col justify-center rounded-xl bg-white/5 backdrop-blur-md">
+      <form ref={form} onSubmit={handleSubmit} className="space-y-4 w-1/2 max-flex:w-[90%] max-flex:p-8 p-16 text-left flex flex-col justify-center rounded-xl bg-white/5 backdrop-blur-md">
           {/* Name Field */}
           <div className='my-2'>
             <motion.label whileInView={{opacity:100, x:0}} initial={{opacity:0, x:-60}} transition={{duration:1.5}} className="block text-lg font-medium text-white" htmlFor="name">Your Name</motion.label>

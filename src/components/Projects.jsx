@@ -1,6 +1,8 @@
 import React from 'react'
 import { motion } from "motion/react"
 import { PROJECTS } from '../constants'
+// import { FaLink } from "react-icons/fa";
+import { FaGithub } from 'react-icons/fa'
 
 const Projects = () => {
   return (
@@ -20,7 +22,8 @@ const Projects = () => {
 
                     {project.technologies.map((tech, index) => (
                         <span key={index} className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900 cursor-pointer'>{tech}</span>
-                    ))}
+                      ))}
+                    <a href={project.link} target="_blank" rel="noopener noreferrer" ><FaGithub className=' mx-1 my-4 rounded bg-neutral-900 px-1 py-1 w-fit text-xl font-medium text-purple-900 cursor-pointer'/></a>
                 </motion.div>
             </div>
         ))}
